@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;900&display=swap');
+
+@layer base{
+  
+    h1{
+        @apply text-6xl md:text-5xl font-bold
+    }
+    h2{
+        @apply text-4xl md:text-5xl font-bold
+    }
+    p{
+        @apply text-lg
+    }
+    li{
+       @apply p-3 text-lg
+    }
+    .btn{
+        @apply md:px-6 md:py-3 px-4 py-2  text-white font-bold text-lg border-gray-300 bg-blue-400 cursor-pointer
+    }
+}
