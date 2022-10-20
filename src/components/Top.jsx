@@ -10,7 +10,7 @@ const Top = () => {
     <div
       onClick={gotoTop}
       title="Scroll To Top"
-      className="fixed z-10 cursor-pointer bottom-5 right-5 "
+      className="fixed z-10 cursor-pointer bottom-5 right-10 "
     >
       <FaArrowCircleUp style={{ color: "#00203F" }} size={30} />
     </div>

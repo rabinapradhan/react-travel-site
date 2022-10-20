@@ -10,12 +10,12 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="lg:bg-transparent select-none bg-[#333] text-white absolute z-10 w-full h-[80px]">
+    <div className="lg:bg-transparent select-none bg-[#333] text-white absolute z-10 w-screen h-[80px]">
       <nav className="container h-full mx-auto flex justify-between items-center px-4">
         <div>
           <h1 className="text-4xl font-bold md:text-3xl">Blue Cloud</h1>
         </div>
-        <ul className="lg:flex cursor-pointer  hidden">
+        <ul className="md:flex cursor-pointer  hidden">
           <li>
             {" "}
             <Link to="/" smooth={true} offset={50} duration={500}>
@@ -57,7 +57,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "flex flex-col  md:hidden w-full text-white absolute bg-[#333] justify-start top-[80px] duration-200 left-0 "
+              ? "flex flex-col  md:hidden w-screen text-white absolute bg-[#333] justify-start top-[80px] duration-200 left-0 "
               : "absolute  left-[-100%]"
           }
         >

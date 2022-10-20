@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full  h-full my-16">
+    <div id="contact" className="w-screen  h-full my-16">
       <div className="max-w-[1240px] bg-[#00203FFF] h-full mx-auto px-4 py-8">
         <div className="w-20 border border-gray-600 inline-block"></div>
         <span className="pl-3 text-lg text-gray-600">Booking</span>
@@ -14,7 +14,7 @@ const Contact = () => {
             <label className="py-4  text-gray-300 text-xl">CheckIn Date</label>
             <input
               type="date"
-              className="border p-4 bg-white focus:outline-none"
+              className="border p-4 w-full  bg-white focus:outline-none"
             />
           </div>
           <div className="flex flex-col">
@@ -22,7 +22,7 @@ const Contact = () => {
               CheckOut Date*
             </label>
             <input
-              className="border p-4 bg-white focus:outline-none "
+              className="border p-4 w-full  bg-white focus:outline-none "
               type="date"
               required
             />

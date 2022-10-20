@@ -4,12 +4,12 @@ import { AiFillPhone, AiFillMail } from "react-icons/ai";
 import { BsInstagram, BsFacebook, BsTwitter } from "react-icons/bs";
 const Footer = () => {
   return (
-    <div className="w-full bg-gray-200  text-black">
-      <div className="max-w-[1240px] mx-auto px-4 py-12">
-        <div className="grid lg:grid-cols-3 justify-center gap-8 ">
-          <div className="w-full flex-1">
-            <h3 className="md:text-4xl text-3xl font-bold">About Us</h3>
-            <p className="py-4 text-justify">
+    <div className="w-screen h-full bg-gray-200  text-black">
+      <div className="max-w-[1240px]  mx-auto px-4 py-6">
+        <div className="grid lg:grid-cols-3 grid-cols-1 justify-center gap-3 lg:gap-8 ">
+          <div>
+            <h3 className="md:text-4xl text-2xl font-bold">About Us</h3>
+            <p className="py-4 ">
               Our tour agency is the leading provider of cheap air tickets as
               well as amazing offers for tourists and people who like to explore
               the untraveled world paths. We can create the most unforgettable
@@ -40,21 +40,22 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-full flex-1  ">
+          <div className="w-full flex-1 border-2">
             <h3 className="md:text-4xl text-3xl font-bold">Newsletter</h3>
-            <p className="py-6">
+            <p className="py-3">
               Sign up to our newsletter and be the first to know about the
               latest news, special offers, events, and discounts.
             </p>
-            <form className=" bg-white text-black items-center justify-between lg:w-full mx-auto max-w-[680px]  border flex">
+            <form className="my-3 w-full">
               <input
-                className="bg-transparent p-2 focus:outline-none flex-1 "
-                type="text"
+                className="focus:outline-none w-full text-center p-3 placeholder:text-gray-600"
+                type="email"
+                required
+                placeholder="Enter your Email"
               />
-
-              <div className=" bg-blue-400 text-white text-xl  py-2 px-6">
-                <input type="submit" value="Submit" />
-              </div>
+              <button className="p-3 font-bold bg-blue-300 w-full border">
+                Subscribe
+              </button>
             </form>
           </div>
         </div>

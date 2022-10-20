@@ -25,7 +25,9 @@ const Gallery = () => {
         <img src={img5} alt="/" className="w-full h-full object-cover" />
       </div>
       <button className="btn">
-        <a href="/">See More..</a>
+        <a href="https://rabinapradhan.github.io/react-travel-site/">
+          See More..
+        </a>
       </button>
     </div>
   );

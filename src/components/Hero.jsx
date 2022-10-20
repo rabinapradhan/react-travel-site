@@ -2,7 +2,7 @@ import React from "react";
 import travelVid from "../assets/travelVid.mp4";
 const Hero = () => {
   return (
-    <div className="w-full h-screen relative text-white ">
+    <div className="w-screen  h-screen  relative text-white ">
       <video
         src={travelVid}
         className="w-full h-full object-cover"
@@ -10,8 +10,8 @@ const Hero = () => {
         loop
         muted
       />
-      <div className="absolute top-[30%] md:left-40 left-10  md:max-w-xl max-w-md mx-auto  ">
-        <h1 className="md:text-3xl lg:text-6xl sm:text-2xl">
+      <div className="absolute top-[30%]  h-full md:left-40 left-10  md:max-w-xl max-w-md mx-auto  ">
+        <h1 className="md:text-4xl lg:text-6xl text-3xl">
           {" "}
           Let`s Make Your Best Trip Ever{" "}
         </h1>
